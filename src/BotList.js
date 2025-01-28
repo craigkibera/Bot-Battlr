@@ -11,8 +11,9 @@ function BotList({addBotsArmy}) {
   },[])
 
  return (
-    
+
     <div className='bot-list'>
+        <h1 className='title'>BOTS</h1>
     {bots.map((bot) => (
       <Bot
         key={bot.id} 
